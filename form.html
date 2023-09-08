@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="gform">
+            <form id="form" class="form-container">
+                <h2 class="form-title">Registration Form</h2>
+                <label class="form-label" for="Fname">Full Name:</label>
+                <input class="form-input" type="text" placeholder="Enter your name" required>
+                
+                <label class="form-label" for="Email">Email:</label>
+                <input class="form-input" type="email" placeholder="Enter your Email address" required>
+                
+                <label class="form-label" for="pass">Password:</label>
+                <input class="form-input" type="password" placeholder="Enter your Password" required>
+                
+                <label class="form-label" for="address">Address:</label>
+                <input class="form-input" type="text" placeholder="Enter your Address" required>
+                
+                <label class="form-label" for="gender">Gender:</label>
+                <select class="form-input" name="Gender" id="gender" required>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                <button class="form-submit" id="butt" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
